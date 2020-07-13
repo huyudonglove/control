@@ -7055,7 +7055,7 @@ var IOController = function () {
         key: '_onLoaderError',
         value: function _onLoaderError(type, data) {
             _logger2.default.e(this.TAG, 'Loader error, code = ' + data.code + ', msg = ' + data.msg);
-            alert('暂未能获取监控画面');
+            //alert('暂未能获取监控画面');
             this._flushStashBuffer(false);
 
             if (this._isEarlyEofReconnecting) {
